@@ -1,2 +1,10 @@
 # SAE-PHP
 
+
+import matplotlib.pyplot as plt
+import seaborn as sns
+import csv
+
+#Lecture du fichier CSV
+data=pd.read_csv('medals.csv')
+
